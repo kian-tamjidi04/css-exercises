@@ -3,6 +3,20 @@
   background: papayawhip;
 }
 
+.header, .left-links, .right-links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* .left-links {
+  margin-left: auto;
+}
+
+.right-links {
+  margin-right: auto;
+} */
+
 .logo {
   font-size: 48px;
   font-weight: 900;
