@@ -19,6 +19,7 @@ button {
   border: none;
   border-radius: 8px;
   background: #eee;
+  padding: 5px 10px;
 }
 
 input {
@@ -30,10 +31,15 @@ input {
 
 a {
   text-decoration: none;
+  color: gray;
 }
 
 ul {
   list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 10px;
 }
 
 .content {
@@ -50,14 +56,5 @@ ul {
 .header, .footer {
   display: flex;
   justify-content: space-between;
-}
-
-.left-links, .right-links {
-  display: flex;
-  gap: 10px;
-  padding: 10px;
-}
-
-a {
-  color: gray;
+  padding: 20px;
 }
